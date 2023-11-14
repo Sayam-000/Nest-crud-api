@@ -17,7 +17,7 @@ export class UserController {
     return this.userService.findAll();
   }
 
-  //custom wala ka controller ###
+  //custom wala ka controller ### if we use custom repository then we can use this ###
   // @Get("/age/:age")
   // findUserByAge(@Param("age") age: number) {
   //   return this.userService.findUserByAge(Number(age));
